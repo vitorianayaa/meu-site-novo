@@ -1,0 +1,122 @@
+body {
+    background-color: #f0f8f5;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+}
+
+/* BANNER */
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("imagens/clinica.png");
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.banner p {
+    font-size: 20px;
+}
+
+.banner h1, .banner p {
+    text-shadow: 2px 2px 5px black;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* SEÇÕES */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* TÍTULOS */
+h1 {
+    text-align: center;
+    color: #2a6fd6;
+}
+
+h2 {
+    color: #1b8f4c;
+    border-bottom: 2px solid #1b8f4c;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #145c32;
+}
+
+/* TEXTOS */
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* IMAGENS GERAL */
+img {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* IMAGENS SERVIÇOS */
+.imagens-servicos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.imagens-servicos img {
+    width: 250px;
+}
+
+/* EQUIPE */
+.equipe img {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+}
+
+/* FORMULÁRIO */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 320px;
+    margin: 20px auto;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/* BOTÃO */
+button {
+    background-color: #1b8f4c;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #145c32;
+}
